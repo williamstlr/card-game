@@ -4,14 +4,14 @@ import java.util.ArrayList;
 
 
 
-public class Player {
+public class TestClass {
 	public String name;			//How do I get this figured out? Also 2 lines down. Same question.
 	public int Score;
 	public int position;
 	Hand hand = new Hand();
 	
 	
-	public Player(String name, int position, int score) {
+	public TestClass(String name, int position, int score) {
 		// TODO Auto-generated constructor stub
 		this.name = name;
 		this.position = position;
