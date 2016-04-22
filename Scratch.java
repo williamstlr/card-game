@@ -1,3 +1,7 @@
+/*
+I used this file mostly to figure out how array lists worked.
+*/
+
 import java.util.*;
  
 

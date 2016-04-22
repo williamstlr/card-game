@@ -17,14 +17,13 @@ public class Card{
    
    /***************************************/
   
-     public Card(int theValue, int theSuit) {
-      //if (theSuit != SPADES && theSuit != HEARTS && theSuit != DIAMONDS && 
-       //     theSuit != CLUBS)
-       // throw news IllegalArgumentException("Illegal playing card suit");
-      
+     public Card(int theValue, int theSuit)
+     {
+    
       value = theValue;
       suit = theSuit;
-   }
+      
+     }
 
    /******************************************/
    public int getSuit() {

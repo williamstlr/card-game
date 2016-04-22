@@ -1,3 +1,6 @@
+/*
+This file gave me a place I could test some OOP stuff. It was initial copied from the Player class. 
+*/
 import java.util.ArrayList;
 
 //class to represent a player

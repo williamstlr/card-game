@@ -1,3 +1,6 @@
+/*
+Used to test my methods and stuff as I completed them.
+*/
 import java.util.*;
  
 
