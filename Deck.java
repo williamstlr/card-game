@@ -39,21 +39,24 @@ public class Deck
       Collections.shuffle(deck);
   }           
                   
-       
-   public void dealCard()
+  /* 
+   public Card dealCard()
    {
-      
+   
+         System.out.println("You need to return a " + deck.get(0).getClass().getName());
          System.out.println("Returning" + deck.get(0));
-         //return deck.get(0);
+         return deck.get(0);
          deck.remove(0);
       
    }
-
-
-   public void testText()
-   {
-     System.out.println("Test Text");
-   
-   }        
+  */
+  
+  //public Card whatDoIReturn() //This is what it should be I guess since we're returning a Card
+  public void whatDoIReturn()
+  {
+   System.out.println("marker");
+   System.out.println("You need to return a " + deck.get(0).getClass().getName());
+   //return deck.get(0);
+  }
   
 }    

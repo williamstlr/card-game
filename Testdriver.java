@@ -14,7 +14,7 @@ public static void main(String[] args)
       
       
          TestClass testPlayer = new TestClass("Tyler",0,1);
-         //System.out.println(testPlayer.hand);
+         //System.out.println(testPlayer.getHand());
          
       
          //Create new Deck object named deck1
@@ -54,5 +54,6 @@ public static void main(String[] args)
          System.out.println(deck1.deck.get(0));
          */
     
+          deck1.whatDoIReturn();
           }//End main
 }//end class
